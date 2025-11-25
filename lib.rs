@@ -1,5 +1,5 @@
 #[cfg(unix)]
-pub use nix::*;
+pub use nix_sys::*;
 
 #[cfg(windows)]
 mod win {
